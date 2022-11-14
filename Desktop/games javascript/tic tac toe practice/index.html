@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaira's TIC TAC TOE</title>
+    <link href="./style.css" rel ="stylesheet"/>
+    <script  defer src="./script.js" ></script>
+</head>
+<body>
+   <h1> TIC TAC TOE</h1>
+   <div class="options">
+    <input id="Player_X"  placeholder = "PLAYER X"/>
+    <input id="Player_O"  placeholder = "PLAYER O"/>
+  </div>
+   <div id="board">
+    <div data-index ="0" class="tile right-border bottom-border"> </div>
+    <div data-index ="1" class="tile bottom-border right-border"> </div>
+    <div data-index ="2" class="tile bottom-border"> </div>
+    <div data-index ="3" class="tile right-border bottom-border"> </div>
+    <div data-index ="4" class="tile right-border bottom-border"> </div>
+    <div data-index ="5" class="tile bottom-border"> </div>
+    <div data-index ="6" class="tile right-border"> </div>
+    <div data-index ="7" class="tile right-border"> </div>
+    <div data-index ="8" class="tile">  </div>
+   </div>
+   <div> 
+    <h3> Player X has <span id="playerXpoints">0</span> points</h3>
+    <h3> Player O has <span id="playerOpoints">0</span> points </h3>
+   </div>
+   <button id="playAgain"> PLAY AGAIN</button>
+   
+</body>
+</html>
